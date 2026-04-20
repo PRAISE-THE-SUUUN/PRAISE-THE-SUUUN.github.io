@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - '/public/index.html'
+      - 'public/**'
 permissions:
   contents: read
   pages: write
